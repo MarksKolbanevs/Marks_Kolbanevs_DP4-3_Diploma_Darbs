@@ -9,6 +9,7 @@ const fileUpload = require('express-fileupload');
 
 //Importing routes
 const userRoutes = require('./routes/userRoutes');
+
 const settingsRoutes = require('./routes/settingsRoutes');
 const tagRoutes = require('./routes/tagRoutes');
 const authRoutes = require('./routes/authRoutes');
@@ -18,7 +19,7 @@ const faqRoutes = require('./routes/faqRoutes');
 const adminRoutes = require('./routes/administratorRoutes');
 const bagRoutes = require('./routes/bagRoutes');
 const cartRoutes = require('./routes/cartRoutes');
-//const bagUuidRoutes = require('./routes/bagUuidRoutes');
+const bagUuidRoutes = require('./routes/bagUuidRoutes');
 const helpRoutes = require('./routes/helpRoutes');
 const favouriteRoutes = require('./routes/favouriteRoutes');
 const reviewRoutes = require('./routes/reviewRoutes');
