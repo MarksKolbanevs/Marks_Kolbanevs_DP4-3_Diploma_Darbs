@@ -9,7 +9,6 @@ const fileUpload = require('express-fileupload');
 
 //Importing routes
 const userRoutes = require('./routes/userRoutes');
-//const userBagRoutes = require('./routes/userBagRoutes');
 const settingsRoutes = require('./routes/settingsRoutes');
 const tagRoutes = require('./routes/tagRoutes');
 const authRoutes = require('./routes/authRoutes');
@@ -19,7 +18,7 @@ const faqRoutes = require('./routes/faqRoutes');
 const adminRoutes = require('./routes/administratorRoutes');
 const bagRoutes = require('./routes/bagRoutes');
 const cartRoutes = require('./routes/cartRoutes');
-const bagUuidRoutes = require('./routes/bagUuidRoutes');
+//const bagUuidRoutes = require('./routes/bagUuidRoutes');
 const helpRoutes = require('./routes/helpRoutes');
 const favouriteRoutes = require('./routes/favouriteRoutes');
 const reviewRoutes = require('./routes/reviewRoutes');
@@ -28,11 +27,6 @@ const reviewRoutes = require('./routes/reviewRoutes');
 const app = express();
 const port = process.env.PORT || 5000;
 var server = http.createServer(app);
-
-// const Tag = require('./models/tag');
-// const Room = require('./models/room');
-
-//var io = require('socket.io')(server);
 
 app.use(express.json());
 app.use(cors());
