@@ -5,7 +5,7 @@ const authenticateToken = require('../userAuthenticateToken');
 const path = require('path');
 const multer = require('multer');
 const fs = require('fs');
-const BagUuid = require('./../models/BagUuid');
+const BagUuid = require('../models/uuid');
 const bcrypt = require('bcrypt');
 
 // Create a new user

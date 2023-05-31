@@ -1,6 +1,6 @@
 const Tag = require('./../models/tag');
 const Bag = require('./../models/bag');
-const BagUuid = require('../models/BagUuid');
+const BagUuid = require('../models/uuid');
 const Room = require('./../models/room');
 const History = require('./../models/history');
 const Helper = require('./../models/helper');

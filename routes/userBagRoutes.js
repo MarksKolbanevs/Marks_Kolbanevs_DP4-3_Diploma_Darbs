@@ -1,4 +1,4 @@
-const BagUuid = require('../models/BagUuid');
+const BagUuid = require('../models/uuid');
 const Bag = require('../models/bag');
 const express = require('express');
 const router = express.Router();

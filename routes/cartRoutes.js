@@ -1,5 +1,5 @@
 const Cart = require('./../models/cart');
-const BagUuid = require('./../models/BagUuid');
+const BagUuid = require('./../models/uuid');
 const express = require('express');
 const router = express.Router();
 const authenticateToken = require('../userAuthenticateToken');

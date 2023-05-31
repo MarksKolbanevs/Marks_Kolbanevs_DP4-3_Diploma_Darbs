@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const BagUuid = require('./../models/BagUuid');
+const BagUuid = require('../models/uuid');
 const authenticateToken = require('../adminAuthenticateToken');
 const userAuthenticateToken = require('../userAuthenticateToken');
 const multer = require('multer');

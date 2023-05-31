@@ -19,5 +19,5 @@ const bagUuidSchema = new mongoose.Schema({
     }
 });
 
-const bagUuidModel = mongoose.model('BagUuid', bagUuidSchema);
+const bagUuidModel = mongoose.model('Uuid', bagUuidSchema);
 module.exports = bagUuidModel;
