@@ -1,0 +1,47 @@
+{
+  "@@locale" : "en",
+  "login": "Login",
+  "@login": {
+    "description": "Login title"
+  },
+  "signup": "Signup",
+  "@signup": {
+    "description": "Signup title"
+  },
+  "greeting": "Welcome back!",
+  "@greeting": {
+    "description": "Login Ggeeting title"
+  },
+  "signupTitle" : "Create an account",
+  "@signupTitle": {
+    "description": "Signup title"
+  },
+  "email" : "Email",
+  "@email": {
+    "description": "Email text"
+  },
+  "password" : "Password",
+  "@password": {
+    "description": "Password text"
+  },
+  "name" : "Name",
+  "@name": {
+    "description": "Name text"
+  },
+  "repeatPassword" : "Repeat password",
+  "@repeatPassword": {
+    "description": "Repeat password text"
+  },
+  "rememberMe" : "Remember me",
+  "@rememberMe": {
+    "description": "Remember me text"
+  },
+  "loginHint" : "Doesn't have account yet?",
+  "@loginHint": {
+    "description": "Login hint text"
+  },
+  "signupHint" : "Already have an account?",
+  "@signupHint": {
+    "description": "Signup hint text"
+  }
+}

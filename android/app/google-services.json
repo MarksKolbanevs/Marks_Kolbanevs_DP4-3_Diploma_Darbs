@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "312672108616",
+    "project_id": "monle-cbac7",
+    "storage_bucket": "monle-cbac7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312672108616:android:9b8db4a811d7aff89d987d",
+        "android_client_info": {
+          "package_name": "com.example.monle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312672108616-7ansrmhft0pr0eevkj8qjovq2np6med7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOWdLSuIDWLYud1WDBcUYWWI3t_J3Q5c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312672108616-7ansrmhft0pr0eevkj8qjovq2np6med7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "312672108616-g4rm4bnuvlqkrd3rjos7lnaum9dotulv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.monle"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

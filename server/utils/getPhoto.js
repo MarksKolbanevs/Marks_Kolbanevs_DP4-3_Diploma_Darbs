@@ -1,0 +1,7 @@
+function getPhotoByPath(){
+
+}
+
+function getMultiplePhotoByPath(){
+    
+}

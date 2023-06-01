@@ -1,0 +1,14 @@
+{
+  "@@locale" : "lv",
+  "login": "Pieslēgties",
+  "signup": "Pierakstīties",
+  "greeting": "Laipni atpakaļ!",
+  "signupTitle" : "Izveidot kontu",
+  "email" : "E-pasts",
+  "password" : "Parole",
+  "name" : "Vards",
+  "repeatPassword" : "Atkārtojiet paroli",
+  "rememberMe" : "Atceries mani",
+  "loginHint" : "Vēl nav konta?",
+  "signupHint" : "Jau ir konts??"
+}
