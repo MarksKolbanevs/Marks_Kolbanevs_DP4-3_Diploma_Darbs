@@ -26,6 +26,7 @@ router.post('/', authenticateToken, multer({ storage: multer.memoryStorage() }).
       return;
     }
     console.log(newDir);
+    return;
     try{
         await fs.promises.mkdir(newDir, (err) => {
             if (err) {
