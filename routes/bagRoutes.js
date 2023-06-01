@@ -16,7 +16,9 @@ router.post('/', authenticateToken, multer({ storage: multer.memoryStorage() }).
     const photoExtension = path.extname(photo.originalname).toLowerCase();
     const id = user.id;
     const bag = new Bag();
-    const newDir = path.join(__dirname,'/assets/bags', bag._id.toString());
+    const serverFolderPath = path.resolve(process.cwd());
+
+    const newDir = path.join(serverFolderPath,'/assets/bags', bag._id.toString());
     const photoPath = path.join('./assets/bags', bag._id.toString(),'main-photo'+photoExtension); 
     const newFile = path.join(newDir, 'main-photo' + photoExtension);
     
@@ -25,7 +27,6 @@ router.post('/', authenticateToken, multer({ storage: multer.memoryStorage() }).
       console.log('incorrect');
       return;
     }
-    console.log(newDir);
     try{
         await fs.promises.mkdir(newDir, (err) => {
             if (err) {
