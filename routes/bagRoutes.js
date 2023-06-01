@@ -28,14 +28,20 @@ router.post('/', authenticateToken, multer({ storage: multer.memoryStorage() }).
       return;
     }
     try{
-        await fs.promises.mkdir(newDir, (err) => {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log(`Created directory: ${newDir}`);
-            }
+        await fs.promises.mkdir(newDir, { recursive: true }, (err) =>{
+          if (err) {
+            console.log(err);
+          } else {
+              console.log(`Created directory: ${newDir}`);
+          }
         });
-      return;
+        // await fs.promises.mkdir(newDir, (err) => {
+        //     if (err) {
+        //         console.log(err);
+        //     } else {
+        //         console.log(`Created directory: ${newDir}`);
+        //     }
+        // });
         await fs.promises.writeFile(newFile, photo.buffer, (err) => {
             if (err) {
                 console.log(err);
