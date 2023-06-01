@@ -1,0 +1,52 @@
+@import url('./font.scss');
+@import url('./colors.scss');
+
+body,html{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,li{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color:white;
+}
+button,input{
+    outline:none;
+    border: none;
+}
+
+.full-width{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:65px;
+}
+.page-header{
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin-bottom: 50px;
+}
+.columns-8{
+    position: relative;
+    max-width: 1696px;
+    width: 100%;
+}
+
+.columns-6{
+    position: relative;
+    max-width: 1265px;
+    width: 100%;
+}

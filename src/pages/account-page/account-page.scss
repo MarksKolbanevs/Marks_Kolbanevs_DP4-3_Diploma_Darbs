@@ -1,0 +1,41 @@
+.account-container{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    max-width: 425px;
+    width: 100%;
+    margin-bottom: 65px;
+    .account-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+        .image-upload label img{
+            cursor: pointer;
+            width: 144px;
+            height: 144px;
+        }
+        .image-upload>input {
+            display: none;
+        }
+        .main-info{
+            display: flex;
+            flex-direction: column;
+            gap:25px;
+        }
+    }
+    .account-inputs{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        input{
+            padding: 10px 20px 10px 20px;
+            font-size: 20px;
+            font-weight: 500;
+            border-radius: 25px;
+            outline: none;
+            border: solid 1px #D9D9D9;
+        }
+    }
+}

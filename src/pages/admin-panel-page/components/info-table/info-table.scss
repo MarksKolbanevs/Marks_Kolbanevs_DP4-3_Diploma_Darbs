@@ -1,0 +1,18 @@
+.info-table{
+    border-collapse: collapse;
+    border: solid 1px #D9D9D9;
+    .table-header{
+        background-color: #515151;
+        box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+        th{
+            padding: 15px 65px 15px 65px;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    td{
+        padding: 30px 20px 30px 15px;
+        color:#515151;
+    }
+}

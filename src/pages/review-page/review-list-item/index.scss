@@ -1,0 +1,54 @@
+.review-item{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    max-width: 625px;
+    word-wrap: break-word;
+    border-radius: 28px;
+    border: 1px solid #BBBBBB;
+    padding: 75px 30px 25px 30px;
+    position: relative;
+    .review-item-photo{
+        position: absolute;
+        border-radius: 100px;
+        width: 100px;
+        height: 100px;
+        top:-50px;
+        left: 20px;
+    }
+    .action-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       .star-bar{
+        display: flex;
+        flex-direction: row;
+        gap:4px;
+        .star-bar-img{
+            position: relative !important;
+            width: 20px;
+            height: 20px;
+        }
+        }
+        .like-bar{
+            display: flex;
+            gap:5px;
+            align-items: center;
+            button{
+                background-color: transparent;
+               .heart-image{
+                width: 22px;
+                height: 20px;
+                transition: 0.3s ease;
+                cursor: pointer;
+                border-radius: 20px;
+                padding: 10px;
+                }
+                .heart-image:hover{     
+                    background-color: #2F3032;
+                    fill:white;
+                } 
+            }
+        } 
+    }
+}

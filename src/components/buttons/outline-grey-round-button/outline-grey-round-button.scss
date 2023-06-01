@@ -1,0 +1,17 @@
+.outline-grey-round-button{
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    border: solid 1px #404040;
+    border-radius: 15px;
+    background-color: transparent;
+    font-weight: 500;
+    color:#404040;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.outline-grey-round-button:hover{
+    background-color: #404040;
+    color:white;
+}

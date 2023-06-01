@@ -1,0 +1,14 @@
+.create-review-form{
+    display: flex;
+    gap:10px;
+        .review-input{
+         background-color: #E4E4E4;
+         padding: 10px 20px 10px 20px;
+         border-radius: 10px;
+        }
+    }
+.review-list{
+    display: flex;
+    gap:10px;
+    margin-top: 100px;   
+}

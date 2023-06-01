@@ -1,0 +1,19 @@
+.outline-accent-round-button{
+    width: auto;
+    padding: 20px 0px 20px 0px;
+    border: solid 1px #0A98FF;
+    border-radius: 35px;
+    background-color: transparent;
+    font-weight: 500;
+    color:#0A98FF;
+    font-size: 20px;
+
+    cursor: pointer;
+    
+    transition: 0.4s ease;
+}
+
+.outline-accent-round-button:hover{
+    background-color: #0A98FF;
+    color:white;
+}

@@ -1,0 +1,29 @@
+.cart-bag-item{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    img{
+        width: 100%;
+    }
+    .cart-bag-info{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        padding: 30px 0px 30px 0px;
+        border-radius: 0px 0px 10px 10px;
+        text-align: center;
+        width: 100%;
+        background-color: #F6F6F6;
+    }
+    .delete-button{
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        padding: 10px;
+        background-color: #1D1D1D;
+        box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.25);
+        border-radius: 7px;
+    }
+}

@@ -1,0 +1,38 @@
+.helper-panel{
+    margin-top: 65px;
+    display: flex;
+    border: 1px solid #DEDEDE;
+    height: 100vh;
+    .helper-panel-side-bar{
+        padding: 15px 15px 15px 15px;
+        border-right: 1px solid #DEDEDE;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        input{
+            background-color: #E4E4E4;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        .user-chat-list{
+        }
+    }
+    .room-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        header{
+        }
+        .chat-container{
+            display: flex;
+            gap:10px;
+            flex-direction: column-reverse;
+            height: 100%;
+        }
+        input{
+            padding: 15px;
+            background-color: #E4E4E4;
+            border-radius: 10px;
+        }
+    }
+}

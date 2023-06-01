@@ -1,0 +1,200 @@
+.admin-panel-container{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    gap:60px;
+}
+.side-bar{
+    width: auto;
+    background-color: #2F3032;
+    padding: 55px 75px 75px 75px;
+    nav{
+        display: flex;
+        gap:40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        a{
+            font-size: 16px;
+            font-weight: 400;
+            transition: 0.3s ease;
+         }
+          a:active{
+              color: #0A98FF;
+          }
+          a:hover{
+              color: #0A98FF;
+        } 
+    }
+}
+.info-table-container{
+    table{
+        border-collapse: collapse;
+        border: solid 1px #D9D9D9;
+        .table-header{
+            background-color: #515151;
+            box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+            th{
+                padding: 15px 65px 15px 65px;
+                color: white;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+        td{
+            padding: 30px 20px 30px 15px;
+            color:#515151;
+        }
+    }
+}
+.info-table{
+    border-collapse: collapse;
+    border: solid 1px #D9D9D9;
+    .table-header{
+        background-color: #515151;
+        box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+        th{
+            padding: 15px 65px 15px 65px;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        input{
+            border-radius: 100px;
+            background-color: white;
+            padding: 5px;
+            padding-left: 10px;
+        }
+    }
+    td{
+        padding: 30px 20px 30px 15px;
+        color:#515151;
+    }
+    .td-centered{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.new-bag-container{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    margin-bottom: 65px;
+    .main-photo-container{
+        width: 100%;
+        height: 100%;
+      .main-image-upload{
+        cursor: pointer;
+        position: relative;
+        width: 1048px;
+        height: 406px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:20px;  
+        background-color: #F8F8F8;
+        border-radius: 35px;
+        h3{
+            position: relative;
+        }
+        .uploaded-photo{
+            z-index: 0;
+            position: absolute;
+            width: 400px;
+            height: 400px;
+        }
+      }
+    }
+    .main-photo-container label .main-image-upload img{
+        position: relative;
+        width: 102px;
+        height: 102px;
+    }
+    .main-photo-container>input {
+          display: none;
+    }
+    .image-upload-container{
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-gap:15px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        .image-upload{
+            position: relative;
+            padding: 70px 0px 70px 0px;
+            display: flex;
+            border-radius: 30px;
+            align-items: center;
+            justify-content: center;
+            background-color: #F8F8F8;
+        }
+        .image-upload label h1{
+            cursor: pointer;
+        }
+        .image-upload>input {
+            display: none;
+        }
+    }
+    
+}
+.reject-button{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    color:#FF0022;
+}
+
+.change-button{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    color:#0A98FF;
+}
+
+.add-button{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    color: #0A98FF;
+}
+
+.small-input{
+    width: 424px;
+    border-radius:20px;
+    border:solid 1px #3F3F3F;
+    padding: 20px 30px 20px 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.textbox-input{
+    width: 424px;
+    border-radius:20px;
+    border:solid 1px #3F3F3F;
+    padding: 20px 30px 20px 30px;
+    font-weight: 500;
+    font-size: 18px;
+    height: 261px;
+}
+
+.user-photo{
+    display: flex;
+    justify-content: center;
+    border-radius: 1000px;
+    width: 50px;
+    height: 50px;
+}
+
+.csv-uploader label button{
+    cursor: pointer;
+}
+.csv-uploader>input {
+    display: none;
+}
