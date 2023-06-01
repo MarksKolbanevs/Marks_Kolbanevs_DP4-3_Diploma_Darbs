@@ -16,23 +16,17 @@ router.post('/', authenticateToken, multer({ storage: multer.memoryStorage() }).
     const photoExtension = path.extname(photo.originalname).toLowerCase();
     const id = user.id;
     const bag = new Bag();
-    const newDir = path.join('/assets/bags', bag._id.toString());
+    const newDir = path.join(__dirname,'/assets/bags', bag._id.toString());
     const photoPath = path.join('./assets/bags', bag._id.toString(),'main-photo'+photoExtension); 
     const newFile = path.join(newDir, 'main-photo' + photoExtension);
-
+    
     if(photoExtension !== '.png' && photoExtension !== '.jpg'){
       res.status(400).json({ message: 'Images can be only format of PNG or JPG' });
       console.log('incorrect');
       return;
     }
     try{
-        await fs.promises.mkdir(newDir, (err) => {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log(`Created directory: ${newDir}`);
-            }
-        });
+        await fs.mkdir(newDir, { recursive: true });
         await fs.promises.writeFile(newFile, photo.buffer, (err) => {
             if (err) {
                 console.log(err);
