@@ -35,13 +35,6 @@ router.post('/', authenticateToken, multer({ storage: multer.memoryStorage() }).
               console.log(`Created directory: ${newDir}`);
           }
         });
-        // await fs.promises.mkdir(newDir, (err) => {
-        //     if (err) {
-        //         console.log(err);
-        //     } else {
-        //         console.log(`Created directory: ${newDir}`);
-        //     }
-        // });
         await fs.promises.writeFile(newFile, photo.buffer, (err) => {
             if (err) {
                 console.log(err);
